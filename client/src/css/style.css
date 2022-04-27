@@ -1,0 +1,152 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+ .nav{
+    margin-left: auto;
+  }
+  .font-weight-bolder{
+    font-weight: bolder;
+    color: rgb(12, 11, 11);
+  }
+  .font-weight-bolder:hover{
+    color: #BF252B
+  }
+  .logo-font{
+    font-family: 'Grand Hotel', cursive;
+  }
+/* Sign up page design */
+.signup-form{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:auto;
+  /* border: 2px red solid; */
+}
+.signup-content{
+  margin-top: 50px;
+  margin-bottom: 20px;
+    height: auto;
+    width: 70%;
+    border: white 2px solid;
+    box-shadow: 2px 2px 2px  #fff;
+}
+.another{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.for-btn{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* login form */
+.login-form{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:auto;
+  /* border: 2px red solid; */
+}
+.login-content{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    height: auto;
+    width: 70%;
+    border: white 2px solid;
+    box-shadow: 2px 2px 2px  #fff;
+}
+.login-box{
+  border: black 1px solid;
+  box-shadow: 5px 5px rgb(82, 80, 80) ;
+}
+
+/* Profile page styling */
+.profile-img{
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  border: 2px solid ;
+  margin-bottom: 10px;
+
+}
+.profile-intro{
+  display: flex;
+  justify-content: space-around;
+  margin: 18px 0px;
+  border-bottom: 1px solid grey;
+  /* border:2px solid red */
+}
+.profile-info{
+  display: flex;
+  justify-content: space-between;
+  width: 108%;
+  /* border:2px solid red */
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.item{
+  width: 250px;
+  margin:10px 5px ;
+}
+.profile-full{
+  max-width: 800px;
+  margin: 0px auto;
+  /* border: 2px solid red; */
+}
+
+/* Home Page styling */
+.home-card{
+  max-width: 600px;
+  border: 2px solid;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin: 25px auto;
+  height: max-content;
+}
+
+/* Create Post Styling */
+
+.create-post-card{
+  /* border: 2px solid red; */
+  max-width: 800px;
+  box-shadow:5px 5px 5px 5px rgb(82, 80, 80)  ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:30px auto;
+}
+.input-group{
+  max-width: 600px;
+  margin: 20px auto;
+}
+label{
+  color:white;
+  height:60px;
+  width:250px;
+  background-color: #BF252B;
+  cursor: pointer;
+  position: relative;
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
